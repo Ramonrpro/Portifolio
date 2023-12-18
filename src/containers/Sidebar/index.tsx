@@ -1,7 +1,8 @@
+import { Perfil } from './styles'
 import Title from '../../components/Title'
 const Sidebar = () => (
   <aside>
-    <img src="https://github.com/ramonrpro.png" />
+    <Perfil src="https://github.com/ramonrpro.png" />
     <Title fontSize={20}>Ramon Rodrigo</Title>
   </aside>
 )
